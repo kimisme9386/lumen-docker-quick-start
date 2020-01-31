@@ -6,7 +6,7 @@ RUN apk --no-cache update && apk add --no-cache \
  && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /app
-COPY . /app
+COPY . .
 RUN composer install
 
 CMD php -S 0.0.0.0:8000 -t /app/public
