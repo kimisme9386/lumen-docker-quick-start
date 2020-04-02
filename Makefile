@@ -6,7 +6,7 @@ DOCKERFILE ?= Dockerfile
 
 .PHONY: docker-build
 docker-build:
-	docker build -t $(DOCKER_IMAGE) -f $(DOCKERFILE) .
+	docker build --no-cache -t $(DOCKER_IMAGE) -f $(DOCKERFILE) .
 
 .PHONY: docker-run
 docker-run:
