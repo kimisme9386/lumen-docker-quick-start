@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      php: 7.4
+    commands:
+      - cd ..
+      - composer install
+
+  build:
+    commands:
+      - composer run test
