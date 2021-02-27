@@ -5,9 +5,6 @@ phases:
     runtime-versions:
       php: 7.4
     commands:
-      - ls -al
-      - cd ..
-      - ls -al
       - composer install
 
   build:
