@@ -20,3 +20,7 @@ docker-run:
 .PHONY: docker-test
 docker-test:
 	docker exec -ti ${DOCKER_CONTAINER_NAME} composer run test
+
+.PHONY: test
+test:
+	composer run test

@@ -9,4 +9,4 @@ phases:
 
   build:
     commands:
-      - composer run test
+      - make test
