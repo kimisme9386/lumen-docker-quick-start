@@ -23,4 +23,7 @@
         <env name="CACHE_DRIVER" value="array"/>
         <env name="QUEUE_CONNECTION" value="sync"/>
     </php>
+    <logging>
+        <log type="junit" target="codebuild/reports.xml"/>
+    </logging>
 </phpunit>
