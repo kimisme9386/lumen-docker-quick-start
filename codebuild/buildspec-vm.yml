@@ -10,3 +10,11 @@ phases:
   build:
     commands:
       - make test
+      - echo "CODEBUILD_SRC_DIR:"${CODEBUILD_SRC_DIR}
+      - echo "CODEBUILD_WEBHOOK_BASE_REF:"${CODEBUILD_WEBHOOK_BASE_REF}
+
+reports:
+  phpunit-report:
+    files:
+      - codebuild/reports.xml
+    file-format: JunitXml
