@@ -2,7 +2,7 @@
 
 | Branch | Build                                                                                                                                                                                                                                                        |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| master | [![Build Status](https://lumendockerawscicdinfrastack-badgebucket1dd67e45-ycwqqi9kehen.s3-ap-northeast-1.amazonaws.com/master-latest-build.svg)](https://ap-northeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines/LumenDockerDevPipeline/view) |
+| master | [![Build Status](https://lumendockerawscicdinfrastack-badgebucket1dd67e45-ycwqqi9kehen.s3-ap-northeast-1.amazonaws.com/master-latest-build.svg#1)](https://ap-northeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines/LumenDockerDevPipeline/view) |
 
 ## Development
 
