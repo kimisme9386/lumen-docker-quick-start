@@ -29,5 +29,3 @@ Open browser url `http://localhost:8000` and you should see the welcome message.
 ## Lumen introduction
 
 [Official document](https://github.com/laravel/lumen/blob/master/README.md)
-
-Just test
