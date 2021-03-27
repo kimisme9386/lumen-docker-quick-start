@@ -20,6 +20,7 @@ phases:
       - echo "CODEBUILD_WEBHOOK_MERGE_COMMIT:" ${CODEBUILD_WEBHOOK_MERGE_COMMIT}
       - echo "CODEBUILD_WEBHOOK_TRIGGER:" ${CODEBUILD_WEBHOOK_TRIGGER}
       - ls -al ${CODEBUILD_SRC_DIR}/vendor
+      - ls -al ./vendor
       - ls -al /root/.composer/cache/files
 
 cache:
